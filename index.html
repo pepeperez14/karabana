@@ -1725,8 +1725,8 @@ UI.mountExercise = function (host, ex, cfg) {
     if (st.ink.isEmpty()) return setFB('inv', 'Lehenengo idatzi', 'Idatzi zure erantzuna (gutxienez saiatu); gero konparatu ereduarekin. Horrela ikasten da!');
     const g = ex.g, box = $('.modelbox', host);
     box.hidden = false;
-    box.innerHTML = '<h5>' + UI.ic('book') + ' Eredu-erantzuna (irakaslearen testutik)</h5><div class="model">' + g.model + '</div><h5 style="margin-top:10px">' + UI.ic('check') + ' Zure erantzunean aipatu dituzu…?</h5><div class="keys">' + g.keys.map((k, i) => '<button type="button" class="key" data-k="' + i + '">' + esc(k) + '</button>').join('') + '</div><p class="small muted">Ukitu idatzi dituzun gakoak. Zintzoa izan: hau zuretzat da, ez notarako.</p><div class="actions"><span class="grow"></span><button type="button" class="btn primary" data-a="self">Baloratu</button></div>';
-    actions('');
+    box.innerHTML = '<h5>' + UI.ic('book') + ' Eredu-erantzuna (irakaslearen testutik)</h5><div class="model">' + g.model + '</div><h5 style="margin-top:10px">' + UI.ic('check') + ' Zure erantzunean aipatu dituzu…?</h5><div class="keys">' + g.keys.map((k, i) => '<button type="button" class="key" data-k="' + i + '">' + esc(k) + '</button>').join('') + '</div><p class="small muted">Ukitu idatzi dituzun gakoak. Zintzoa izan: hau zuretzat da, ez notarako.</p>';
+    actions('<span class="grow"></span><button type="button" class="btn primary" data-a="self">Baloratu ' + UI.ic('next') + '</button>');
     box.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
   }
   function selfGrade() {

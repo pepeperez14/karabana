@@ -1,0 +1,35 @@
+KARABANA · CÓMO INSTALARLA EN EL IPAD DE ÁLEX
+(igual que Misión Mates; no hace falta cuenta de Claude)
+
+1. SUBIR LOS ARCHIVOS A GITHUB (una sola vez)
+   a) Entra en https://github.com/new con tu cuenta.
+      Nombre: karabana · marca «Public» · pulsa «Create repository».
+   b) Sube los archivos sueltos de esta carpeta (NO el ZIP):
+      https://github.com/pepeperez14/karabana/upload/main
+      → «choose your files» → selecciona index.html, sw.js,
+      manifest.webmanifest y los tres .png → «Commit changes».
+   c) Settings → Pages → Branch: «main» y «/ (root)» → Save.
+      En 1 o 2 minutos estará en:
+      https://pepeperez14.github.io/karabana/
+
+2. INSTALARLA EN EL IPAD
+   Abre esa dirección en Safari → Compartir → «Añadir a pantalla
+   de inicio». Que la abra siempre desde el icono del camello: así
+   el progreso y lo que escribe con el lápiz se guardan en el iPad
+   y funciona sin Internet.
+
+3. EL EXAMEN ES EL MIÉRCOLES 28 DE OCTUBRE
+   La app lleva un plan de 6 días («Gaurko karabana»): cada día
+   propone las paradas que tocan y 8 ejercicios mezclados.
+   Desde el lunes: «Azterketa-simulakroa» (simulacro completo).
+
+4. PARA LA FAMILIA
+   Botón «Para la familia» (pregunta de multiplicar): progreso,
+   recomendaciones, copia de seguridad y desbloquear todas las
+   paradas de golpe si en clase van más adelante.
+
+5. ESQUEMA EN PAPEL
+   Islamiar-zibilizazioa-eskema.pdf (euskera, el del examen) y
+   Civilizacion-islamica-esquema.pdf (castellano). A3 apaisado; en A4
+   también se leen bien. En la app, botón «Eskema grafikoa» con
+   cambio Euskaraz / Castellano.
